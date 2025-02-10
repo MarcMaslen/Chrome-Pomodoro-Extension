@@ -1,21 +1,37 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    width: 400px;
+    width: 250px;
+    margin: 0;
+}
+
+.title {
+    background-color: gray;
+    padding: 20px;
+    
+}
+
+.title h1{
+    font-size: 1.2rem;
+}
+
+.title img {
+    width: 40px;
 }
 
 .container {
-    padding: 20px;
+    padding: 40px;
+    background-color: aqua;
 }
 
-.timer{
-    font-size: 50px;
+.timer {
+    font-size: 40px;
 }
 
 button {
     margin: 5px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 16px;
     cursor: pointer;
     font-weight: 400;
 }
