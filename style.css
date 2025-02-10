@@ -1,22 +1,29 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    width: 250px;
+    width: 400px;
     margin: 0;
 }
 
 .title {
     background-color: gray;
-    padding: 20px;
-    
+    padding: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .title h1{
     font-size: 1.2rem;
 }
 
-.title img {
+.icon  {
+    width: 45px;
+}
+
+a .menu{
     width: 40px;
+    height: 40px;
+    margin-left: auto;
 }
 
 .container {
